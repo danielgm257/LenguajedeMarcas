@@ -1,0 +1,355 @@
+
+#abcd{ 
+position: relative;
+align-content: center;
+background-color: yellow;
+width: 645px; 
+height: 480px;
+padding: 25px; 
+border: 1px dashed black;
+left: 0;
+top: 0;
+}
+
+#a{
+position: absolute;
+border: 1px dashed black;
+background-color: #62deb5;
+width: 225px;
+height: 140px;
+top: 0;
+left: 0;
+margin: auto;
+
+} 
+
+#abc{ 
+position: absolute;
+background-color: #2fffff;
+width: 100%; 
+height:450px;
+border: 1px dashed black;
+left: 0;
+top: 145px;
+}
+
+#abcde{
+position: absolute;
+background-color: yellow;
+width: 100%; 
+height:60px;
+border: 1px dashed black;
+left: 0;
+bottom: 0;
+margin:auto;
+}
+
+p{
+padding-bottom: 0;
+padding-top: 0;
+text-align: center;
+line-height: 0.01;
+}
+
+#aa{
+position: absolute;
+border: 1px dashed black;
+background-color: aquamarine;
+width: 255px;
+height: 133px;
+top: 0;
+right: 0;
+margin: auto;
+}
+    
+#aaa{
+position: absolute;
+border: 1px dashed black;
+background-color: #81f737;
+width: 140px;
+height: 95px;
+top: 0;
+right: 275px;
+margin: auto
+}
+
+#platano{ 
+position: absolute;
+background-color: #3087ff;
+width: 680px; 
+height:340px;
+border: 1px dashed black;
+left: 7px;
+top: 75px;
+}
+
+#banana{
+position: absolute;
+border: 1px dashed black;
+background-color: #b1ff63;
+width: 350px;
+height: 89px;
+top: 121px;
+left: 6px;
+margin: auto
+}
+
+#banano{
+position: absolute;
+border: 1px dashed black;
+background-color:  #fff49c;
+width: 350px;
+height: 89px;
+top: 212px;
+left: 6px;
+margin: auto
+}
+
+#platino{
+position: absolute;
+border: 1px dashed black;
+background-color: #b1ff63;
+width: 350px;
+height: 89px;
+top: 30px;
+left: 6px;
+margin: auto
+}
+
+#bananita{
+position: absolute;
+border: 1px dashed black;
+background-color: #ffa5a5;
+width: 350px;
+height: 30px;
+top: 5px;
+left: 6px;
+margin: auto
+}
+
+#tomate{
+position: absolute;
+border: 1px dashed black;
+background-color: #ffc69c;
+width: 100px;
+height: 260px;
+top: 30px;
+left: 570px;
+margin: auto;
+}
+
+#tomaco{
+position: absolute;
+border: 1px dashed black;
+background-color: #2fffff;
+width: 100px;
+height: 260px;
+top: 30px;
+left: 470px;
+margin: auto
+}
+
+#tomatito{
+position: absolute;
+border: 1px dashed black;
+background-color: #4faeff;
+width: 100px;
+height: 265px;
+top: 30px;
+left: 370px;
+margin: auto
+}
+
+#tomatera{
+position: absolute;
+border: 1px dashed black;
+background-color: #d86464;
+width: 300px;
+height: 25px;
+top: 5px;
+left: 370px;
+margin: auto
+}
+
+#lechuga{
+position: absolute;
+border: 1px dashed black;
+background-color: rgba(252, 102, 102, 0.79);
+width: 190px;
+height: 42px;
+top: 72px;
+left: 35px;
+margin: auto
+}
+
+#lechugo{
+position: absolute;
+border: 1px dashed black;
+background-color: rgb(232, 79, 252);
+width: 190px;
+height: 42px;
+top: 30px;
+left: 35px;
+
+}
+
+#betis{
+position: absolute;
+border: 1px dashed black;
+background-color: #89ffff;
+width: 683px;
+height: 65px;
+top: 0px;
+left: 5px;
+margin: auto;
+}
+
+#sevilla{
+position: absolute;
+border: 1px dashed black;
+background-color: rgba(178, 255, 255, 0.96);
+width: 100%;
+height: 15px;
+bottom: 0;
+margin: auto
+}
+
+#madrid{
+position: absolute;
+border: 1px dashed black;
+background-color: #71ff5e;
+width: 80px;
+height: 10px;
+top: 0px;
+margin: auto
+}
+
+#atletico{
+position: absolute;
+border: 1px dashed black;
+background-color: yellow;
+width: 80px;
+height: 10px;
+top: 0px;
+left: 80px;
+margin: auto
+}
+
+#barsa{
+position: absolute;
+border: 1px dashed black;
+background-color: #37f737;
+width: 120px;
+height: 10px;
+top: 0px;
+left: 160px;
+margin: auto
+}
+
+#granada{
+position: absolute;
+border: 1px dashed black;
+background-color: #fff49c;
+width: 80px;
+height: 10px;
+left: 280px;
+top: 0px;
+margin: auto
+}
+
+#almeria{
+position: absolute;
+border: 1px dashed black;
+background-color: #ffee63;
+width: 65px;
+height: 40px;
+bottom: 16px;
+left: 20px;
+margin: auto
+}
+
+
+#eibar{
+position: absolute;
+border: 1px dashed black;
+background-color: #ff8085;
+width: 65px;
+height: 40px;
+bottom: 16px;
+left: 85px;
+margin: auto
+}
+
+
+#valencia{
+position: absolute;
+border: 1px dashed black;
+background-color: #efadff;
+width: 80px;
+height: 40px;
+bottom: 16px;
+left: 145px;
+margin: auto
+}
+
+
+#villareal{
+position: absolute;
+border: 1px dashed black;
+background-color: #5395ff;
+width: 80px;
+height: 40px;
+bottom: 16px;
+left: 225px;
+margin: auto
+}
+
+
+
+#español{
+position: absolute;
+border: 1px dashed black;
+background-color: #4cff7c;
+width: 65px;
+height: 40px;
+bottom: 16px;
+left: 305px;
+margin: auto
+}
+
+
+#real{
+position: absolute;
+border: 1px dashed black;
+background-color: #6dffb0;
+width: 80px;
+height: 40px;
+bottom: 16px;
+left: 370px;
+margin: auto
+}
+
+
+#levante{
+position: absolute;
+border: 1px dashed black;
+background-color: #2fffff;
+width: 65px;
+height: 40px;
+bottom: 16px;
+left: 450px;
+margin: auto
+}
+
+h4.verse {
+padding-bottom: 100px;
+text-align: left;
+text-align: bottom;
+}
+
+h1.class {
+padding-bottom: 0;
+padding-top: 0;
+text-align: center;
+line-height: 0.01;
+}
