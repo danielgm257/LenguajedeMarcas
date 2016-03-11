@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet"
+          type="text/css"
+          href="estilos.css" />
+    
+      <script type="text/javascript" src="jquery-1.11.3.js"></script>  
+</head>
+
+<body background="apple.png">
+    
+    <ul id="acordeon">
+        
+        <li id="uno">
+            <div id="cuadro1">  
+            <div id="captura"> <img src="Captura.PNG"></div>
+            </div>        
+        </li>
+        
+        
+        
+        <li id="dos">
+            <div id="cuadro2"> 
+                <div id="captura1"> <img src="Captura1.PNG"></div>
+            </div> 
+        </li>
+        
+        
+        
+        <li id="tres">
+            <div id="cuadro3">
+                <div id="captura2"> <img src="Captura2.PNG"></div>
+            </div> 
+        </li>
+      
+        
+        
+        <li id="cuatro">
+            <div id="cuadro4"> 
+                <div id="cuadro41">
+                <h2>Simplemente Iphone 6s</h2>
+                <p>En cuanto pruebas el Iphone 6s, tienes la sensación de no haber usado nunca nada igual.A medida que vas profundizando, te das cuenta de que el iPhone 6s es innovación a todos los niveles</p>
+                </div>
+                <div id="cuadro42">
+                    <div id="imagenes">
+                <img id="imagenuno" src="uno.jpg">
+                <img id="imagendos" src="dos.jpg">
+                <img id="imagentres" src="tres.jpg">
+                </div>
+                </div>
+            
+            </div> 
+        </li>
+        
+        
+        
+        <li id="cinco">
+            <div id="cuadro5">
+                <img src="Captura4.PNG">
+            </div> 
+        </li>
+  </ul>
+    
+    
+    
+     
+    <script>
+    $(document).ready(function(){
+ 
+    activeItem = $("#acordeon li:first");
+    $(activeItem).addClass('active');
+ 
+    $("#acordeon li").hover(function(){
+        $(activeItem).animate({width: "60px"}, {duration:300, queue:false});
+        $(this).animate({width: "700px"}, {duration:300, queue:false});
+        activeItem 
+            
+            = this;
+    });
+ 
+});
+    
+    
+    
+    </script>
+</body>
+</html>

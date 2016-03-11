@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 5</title>
+   <link rel="stylesheet"
+          type="text/css"
+          href="estilos.css" />
+    <script type="text/javascript" src="jquery-1.11.3.js"></script>
+</head>
+
+<body>
+
+<div id="general"> 
+    <div id="superior">
+           <div id="superior1"> 
+                <h2 id="h2">CONTROLES GENERALES</h2>
+           
+            </div>   
+            <div id="superior2">
+               <div>
+                   
+            <button id="botones" type="button">OCULTAR/MOSTRAR</button>
+                   
+            <button id="botoness" type="button">RESETEAR</button>
+               </div>
+                
+            </div>
+    </div>
+    
+    <div id="central">
+        <div id="central11">
+         <div id="central1">
+             <table>
+            <tr> 
+                    <td><button id="uno" type="button">OCULTAR/MOSTRAR</button> </td>
+            </tr>
+                 
+            <tr> 
+                    <td><button id="dos" style='width:151px; height:21px' type="button">+50</button></td>
+            </tr>
+                 
+            <tr>    <td><button id="tres" style='width:151px; height:21px' type="button">-50</button></td> 
+            </tr>
+                 
+             </table>
+        </div>
+        
+         <div id="central2">
+         
+         </div>
+        
+         <div id="central3">
+         
+         </div>
+        </div>
+    
+    
+        
+        
+        
+         <div id="central20">
+         <div id="central21">
+             <table>
+            <tr> 
+                    <td><button id="b" type="button">OCULTAR/MOSTRAR</button> </td>
+            </tr>
+                 
+            <tr> 
+                    <td><button id="mas2" style='width:151px; height:21px' type="button">+50</button></td>
+            </tr>
+                 
+            <tr>    <td><button id="menos2" style='width:151px; height:21px' type="button">-50</button></td> 
+            </tr>
+                 
+             </table>
+        </div>
+        
+         <div id="central22">
+         
+         </div>
+        
+         <div id="central23">
+         
+         </div>
+        </div>
+    
+
+        
+        
+        <div id="central30">
+         <div id="central31">
+             <table>
+            <tr> 
+                    <td><button  id="c" type="button">OCULTAR/MOSTRAR</button> </td>
+            </tr>
+                 
+            <tr> 
+                    <td><button id="mas3" style='width:151px; height:21px' type="button">+50</button></td>
+            </tr>
+                 
+            <tr>    <td><button id="menos3" style='width:151px; height:21px' type="button">-50</button></td> 
+            </tr>
+                 
+             </table>
+        </div>
+        
+         <div id="central32">
+         
+         </div>
+        
+         <div id="central33">
+         
+         </div>
+        </div>
+    
+</div>    
+    
+    <script type="text/javascript">
+        $(function() {
+            console.log("Ready for jQuery");
+            $("#uno").click(function(){
+                    $("#central3").slideToggle();
+            });
+            $("#b").click(function(){
+                    $("#central23").slideToggle();
+            });
+            $("#c").click(function(){
+                    $("#central33").slideToggle();
+            });
+            $("#botones").click(function(){
+                $("#central3").slideToggle();
+                $("#central23").slideToggle();
+                    $("#central33").slideToggle();
+            });
+            $("#dos").click(function(){
+                 if ($("#central3").width() > 500) {
+                      $("#central3").width() = 500
+                    };
+                $("#central3").animate({width:"+=50"},{duration:1000});
+            });
+            $("#tres").click(function(){
+                
+                if ($("#central3").width() < 0) {
+                      $("#central3").width() = 0
+                    };
+                $("#central3").animate({width:"-=50"},{duration:1000});
+            });
+            $("#mas2").click(function(){
+                if ($("#central23").width() > 500) {
+                      $("#central23").width() = 500
+                    };
+                $("#central23").animate({width:"+=50"},{duration:1000});
+            });
+            $("#menos2").click(function(){
+                if ($("#central23").width() < 0) {
+                      $("#central23").width() = 0
+                    };
+                $("#central23").animate({width:"-=50"},{duration:1000});
+            });
+            $("#mas3").click(function(){
+                if ($("#central33").width() > 500) {
+                      $("#central33").width() = 500
+                    };
+                $("#central33").animate({width:"+=50"},{duration:1000});
+            });
+            $("#central33").click(function(){
+                if ($("#central33").width() < 0) {
+                      $("#central33").width() = 0
+                    };
+                $("#central33").animate({width:"-=50"}, {duration:1000});
+            });
+            $("#botoness").click(function(){
+                $("#central3").animate({width:"400"});
+                $("#central23").animate({width:"400"});
+                $("#central33").animate({width:"400"});
+                $("#central3").show();
+                $("#central23").show();
+                $("#central33").show();
+            });
+        });
+      </script>
+    
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio7</title>
+    <link rel="stylesheet"
+          type="text/css"
+          href="estilos.css" />
+    <script type="text/javascript" src="jquery-1.11.3.js"></script>
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <div id="central">
+    <img src="miketyson.jpg">
+    </div>
+        <div id="rango">
+        <input size="200px" type="range" name="rango" min="0" max="10" value="10">
+        </div>
+    
+     <script type="text/javascript">
+         
+    $(document).ready(function(){
+        $(":range").change(function(event) {
+           $("#central").animate({"width": "+30px", height:"+10px"})
+  });
+});
+    
+    </script>
+</body>
+</html>

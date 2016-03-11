@@ -1,0 +1,125 @@
+#general{
+   margin:50px;
+}
+
+
+#superior{
+    height: 80px;
+   margin:20px;
+    margin-right: 350px;
+    width: 300px;
+    float: right;
+}
+
+#superior1{
+    background-color: forestgreen;
+    height:25px;
+    color: white;
+    font-size: 15px;
+    margin-top: 0;
+}
+
+h2{
+    margin-top: 0px;
+}
+
+#botones{
+    margin-top: 20px;
+}
+
+#central{
+    height: 400px;
+    width: 600px;
+    float: left;
+    margin-top: 0;
+    
+}
+
+#central1{
+    margin-left: 0px;
+}
+
+#central2{
+    background-color: black;
+    height: 85px;
+    width: 2px;
+    position: relative;
+    top:-80px;
+    left: 180px;
+    
+    
+}
+
+#central3{
+    background-color: red;
+    height: 100px;
+    width: 400px;
+    float: right;
+    position: relative;
+    top: -170px;
+}
+
+#central20{
+    position:relative;
+    margin: 0px;
+    top: -50px;
+    
+}
+
+#central21{
+    margin-left: 0px;
+    top:0px;
+}
+
+#central22{
+    background-color: black;
+    height: 85px;
+    width: 2px;
+    position: relative;
+    top:-80px;
+    left: 180px;
+    
+    
+}
+
+#central23{
+    background-color: blue;
+    height: 100px;
+    width: 400px;
+    float: right;
+    position: relative;
+    top: -170px;
+}
+
+#central30{
+    position:relative;
+    margin: 0px;
+    top: -100px;
+    
+}
+
+#central31{
+    margin-left: 0px;
+    top:0px;
+}
+
+#central32{
+    background-color: black;
+    height: 85px;
+    width: 2px;
+    position: relative;
+    top:-80px;
+    left: 180px;
+    
+    
+}
+
+#central33{
+    background-color: green;
+    height: 100px;
+    width: 400px;
+    float: right;
+    position: relative;
+    top: -170px;
+}
+
